@@ -54,6 +54,7 @@ section {
 body {
 	background-color: rgb(65, 65, 223);
 	color: white;
+    margin: 0;
 }
 
 table {
@@ -65,6 +66,36 @@ table {
 	border: 4px solid black;
 	margin: 40px 0;
 	padding: 40px 0;
+}
+
+button{
+    margin: auto;
+    width: 50%;
+    height: 30px;  
+    align-items: center;
+    display: inline;
+        
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    float: left;
+    justify-content: space-between;
+}
+
+.returnHome{
+    list-style-type: none;
+    color: white;
+    font-size: 15px;
+}
+
+ul{
+    align-items: center;
+}
+
+p{
+    font-size: 32px;
 }
 
 table th {
